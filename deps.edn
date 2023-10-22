@@ -1,5 +1,6 @@
 {:paths ["src" "resources"]
- :deps {org.clojure/clojure {:mvn/version "1.11.1"}}
+ :deps {org.clojure/clojure {:mvn/version "1.11.1"}
+        aleph/aleph {:mvn/version "0.7.0-alpha2"}}
  :aliases
  {:run-m {:main-opts ["-m" "freergit.clojure-bbo"]}
   :run-x {:ns-default freergit.clojure-bbo
